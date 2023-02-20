@@ -17,6 +17,3 @@ fiboFunction(fibonacciList).forEach(function(slide) {
 str += "</ul>";
 
 document.getElementById("fibonacci").innerHTML = str;
-
-
-

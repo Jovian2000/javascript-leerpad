@@ -5,9 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
-    <title>Dagen</title>
+    <title>Opdrachten javascript</title>
 </head>
 <body>
+    <h1>Dagen opdracht</h1>
     <div>
         <h2>Alle dagen van de week</h2>
         <p id="allDays"><p>
@@ -32,6 +33,25 @@
         <h2>Weekenddagen omgekeerd</h2>
         <p id="weekendReverse"></p>
     </div>
+    <h1>Namen opdracht</h1>
+    <div>
+        <h2>Namen invoeren</h2>
+        <p>Voer hier in hoeveel namen je wilt</p>
+        <input type="number" id="num" min="3" max="10" onchange="">
+        <button onclick= "inputDisablerEnabler('no')" id="enabler">apply</button>
+    </div>
+    <div>
+        <input type="name" id="nameInput" disabled>
+        <button onclick="addNames()"id="nameSend" disabled>send</button>
+    </div>
+    <div>
+        <h2 id="nameArrayHeader"></h2>
+        <p id="nameArray"></p>
+    </div>
+    <div>
+        <h2 id="nameArrayHeaderReverse"></h2>
+        <p id="nameArrayReverse"></p>
+    </div>    
     <script src="js/dagen.js"></script>
 </body>
 </html>

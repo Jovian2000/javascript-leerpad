@@ -7,3 +7,11 @@ body {
 li {
     list-style-type: none;
 }
+
+h1 {
+    border-bottom: 2px solid black;
+}
+
+h2 {
+    color: #505050
+}

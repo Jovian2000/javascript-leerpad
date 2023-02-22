@@ -15,7 +15,7 @@
 
 ## Namen opdracht foto:
 <img
-    src="/screenshots/names-screenshot.png"
+    src="/screenshots/namen-screenshot.png"
     alt="screenshot van namen opdracht"
     title="names"
     style="display: inline-block; margin: 0 auto; max-width: 50px">

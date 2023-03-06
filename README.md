@@ -23,6 +23,13 @@
 ## Rekenen met arrays foto:
 <img
     src="/screenshots/math-array-screenshot.png"
-    alt="screenshot van namen opdracht"
+    alt="screenshot van math array opdracht"
     title="math arrays"
+    style="display: inline-block; margin: 0 auto; max-width: 50px">
+
+## Array met tafels foto:
+<img
+    src="/screenshots/tafel-array-screenshot.png"
+    alt="screenshot van tafel array opdracht"
+    title="arrays met tafels"
     style="display: inline-block; margin: 0 auto; max-width: 50px">

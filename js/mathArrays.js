@@ -43,6 +43,6 @@ document.getElementById("headerAftrekken").innerHTML = "Aftrekken van de twee ar
 document.getElementById("aftrekken").innerHTML = aftrekken(arrayEen, arrayTwee)
 document.getElementById("headerVermenigvuldigen").innerHTML = "Vermenigvuldigen van de twee arrays zijn:"
 document.getElementById("vermenigvuldigen").innerHTML = vermenigvuldigen(arrayEen, arrayTwee)
-document.getElementById("headerDelen").innerHTML = "Vermenigvuldigen van de twee arrays zijn:"
+document.getElementById("headerDelen").innerHTML = "Delen van de twee arrays zijn:"
 document.getElementById("delen").innerHTML = delen(arrayEen, arrayTwee)
 

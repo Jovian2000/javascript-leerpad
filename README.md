@@ -40,3 +40,10 @@
     alt="screenshot van piramide opdracht"
     title="piramide opdracht"
     style="display: inline-block; margin: 0 auto; max-width: 50px">
+
+## Omgekeerde piramide arrays foto:
+<img
+    src="/screenshots/omgekeerd-piramide-screenshot.png"
+    alt="screenshot van omgekeerde piramide opdracht"
+    title="omgekeerde piramide opdracht"
+    style="display: inline-block; margin: 0 auto; max-width: 50px">

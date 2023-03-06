@@ -24,5 +24,5 @@
 <img
     src="/screenshots/math-array-screenshot.png"
     alt="screenshot van namen opdracht"
-    title="names"
+    title="math arrays"
     style="display: inline-block; margin: 0 auto; max-width: 50px">

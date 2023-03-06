@@ -19,3 +19,10 @@
     alt="screenshot van namen opdracht"
     title="names"
     style="display: inline-block; margin: 0 auto; max-width: 50px">
+
+## Rekenen met arrays foto:
+<img
+    src="/screenshots/math-array-screenshot.png"
+    alt="screenshot van namen opdracht"
+    title="names"
+    style="display: inline-block; margin: 0 auto; max-width: 50px">

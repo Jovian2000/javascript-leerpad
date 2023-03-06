@@ -33,3 +33,10 @@
     alt="screenshot van tafel array opdracht"
     title="arrays met tafels"
     style="display: inline-block; margin: 0 auto; max-width: 50px">
+
+## Piramide arrays foto:
+<img
+    src="/screenshots/piramide.js"
+    alt="screenshot van piramide opdracht"
+    title="piramide opdracht"
+    style="display: inline-block; margin: 0 auto; max-width: 50px">

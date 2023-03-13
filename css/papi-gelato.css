@@ -12,9 +12,10 @@ body {
 }    
 
 .papi-gelato-blok {
-    background-color: rgba(247, 225, 225, 0.9);
+    background-color: rgba(125, 237, 245, 0.9);
     margin: 50px;
     display: grid;
+    border: 1px solid black;
 }
 
 .smaak-blok {

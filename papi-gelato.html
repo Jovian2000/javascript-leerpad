@@ -19,21 +19,21 @@
             <div class="ijs-blok">
                 <img src="images/chocolade-ijs.png">
                 <h3>Chocolade ijs</h3>
-                <button>Toevoegen</button>
+                <button onclick="toevoegingenSmaak('choco')">Toevoegen</button>
                 <button>Verwijderen</button>
             </div>
 
             <div class="ijs-blok">
                 <img src="images/vanille-ijs.png">
                 <h3>Vanille ijs</h3>
-                <button>Toevoegen</button>
+                <button onclick="toevoegingenSmaak('vanille')">Toevoegen</button>
                 <button>Verwijderen</button>
             </div>
 
             <div class="ijs-blok">
                 <img src="images/aardbei-ijs.png">
                 <h3>Aardbei ijs</h3>
-                <button>Toevoegen</button>
+                <button onclick="toevoegingenSmaak('aardbei')">Toevoegen</button>
                 <button>Verwijderen</button>
             </div>
         </div>
@@ -53,8 +53,8 @@
         </div>
 
         <select id="hoorn-of-bak">
-            <option value="hoorntje">Hoorntje</option>
-            <option value="bakje">Bakje</option>
+            <option value="hoorn">Hoorntje</option>
+            <option value="bak">Bakje</option>
         </select>
 
         <h2>Selecteer hier uw topping</h2>
@@ -78,10 +78,10 @@
             <option value="geen">Geen</option>
             <option value="slagroom">Slagroom</option>
             <option value="sprinkels">Sprinkels</option>
-            <option value="caramel-saus">Caramel saus</option>
+            <option value="caramel saus">Caramel saus</option>
         </select>
 
-        <button id="knop-afronding">Toevoegen</button>
+        <button id="knop-afronding" onclick="afronding()">Toevoegen</button>
 
     </div>
 

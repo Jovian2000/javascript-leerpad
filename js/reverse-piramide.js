@@ -9,6 +9,6 @@ function addReversePiramide() {
     for (let v = num; v >= 0; v--) {
         txt += String(arrayNum.slice(0,(v+1))) + "<br>"
     }
-    newTxt = String("Array: " + arrayNum + "<br>" + txt);
+    newTxt = String("Array: " + arrayNum + "<br><br>" + txt);
     document.getElementById("makePiramideReverse").innerHTML = newTxt;
 }

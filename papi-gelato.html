@@ -7,55 +7,72 @@
     <title>Papi Gelato</title>
     <link rel="stylesheet" href="css/papi-gelato.css">
     <script src="js/papi-gelato.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
 </head>
 <body>
     
-    <div class="papi-gelato-blok">
+    <div class="papi-gelato-blok" id="bestel-blok">
         <h1>Papi Gelato</h1>
+        <div class="prijs-blok">
+            <h2>Prijs lijst</h2>
 
+            <h3>ijs bolletjes</h3>
+            <p>Prijs per bolletje: €0,95 <br>(aardbei)<br>(chocola)<br>(vanille)</p>
+
+            <h3>Hoorn of bak</h3>
+            <p>Hoorntje: €1,25 <br>Bakje: €0,75</p>
+            
+            <h3>Toppings</h3>
+            <p>Slagroom: €0,50 <br>Sprinkels: €0,30 <br>Caramel saus (bakje): €0,60 <br>Caramel saus (hoorntje): €0,90</p>
+        </div>
         <h2>Kies hier uw smaken</h2>
-
         <div class="smaak-blok">
+            <div class="ijs-blok">
+                <img src="images/aardbei-ijs.png">
+                <h3>Aardbei ijs</h3>
+                <p id="bollen-aardbei">Aantal bollen: 0</p>
+                <button onclick="smaakKeuze('aardbei', '+')" id="smaak-knop-aardbei">Toevoegen</button>
+                <button onclick="smaakKeuze('aardbei', '-')">Verwijderen</button>
+            </div>
+
             <div class="ijs-blok">
                 <img src="images/chocolade-ijs.png">
                 <h3>Chocolade ijs</h3>
-                <button onclick="toevoegingenSmaak('choco')">Toevoegen</button>
-                <button>Verwijderen</button>
+                <p id="bollen-choco">Aantal bollen: 0</p>
+                <button onclick="smaakKeuze('choco', '+')" id="smaak-knop-choco">Toevoegen</button>
+                <button onclick="smaakKeuze('choco', '-')">Verwijderen</button>
             </div>
 
             <div class="ijs-blok">
                 <img src="images/vanille-ijs.png">
                 <h3>Vanille ijs</h3>
-                <button onclick="toevoegingenSmaak('vanille')">Toevoegen</button>
-                <button>Verwijderen</button>
-            </div>
-
-            <div class="ijs-blok">
-                <img src="images/aardbei-ijs.png">
-                <h3>Aardbei ijs</h3>
-                <button onclick="toevoegingenSmaak('aardbei')">Toevoegen</button>
-                <button>Verwijderen</button>
+                <p id="bollen-vanille">Aantal bollen: 0</p>
+                <button onclick="smaakKeuze('vanille', '+')" id="smaak-knop-vanille">Toevoegen</button>
+                <button onclick="smaakKeuze('vanille', '-')">Verwijderen</button>
             </div>
         </div>
 
         
-        <h2>Hoorn of bak</h2>
+        <h2>Bakje of hoorntje</h2>
 
         <div class="img-blok">
-            <div class="img-stukje">
-                <img src="images/hoorn-img.png">
-                <h3>Hoorntje</h3>
-            </div>
             <div class="img-stukje">
                 <img src="images/bakje-img.png">
                 <h3>Bakje</h3>
             </div>
+            
+            <div class="img-stukje">
+                <img src="images/hoorn-img.png">
+                <h3>Hoorntje</h3>
+            </div>
         </div>
 
-        <select id="hoorn-of-bak">
-            <option value="hoorn">Hoorntje</option>
-            <option value="bak">Bakje</option>
-        </select>
+        <div class="box">
+            <select id="hoorn-of-bak" name="name">
+                <option value="bak">Bakje</option>
+                <option value="hoorn">Hoorntje</option>
+            </select>
+        </div>
 
         <h2>Selecteer hier uw topping</h2>
 
@@ -74,15 +91,24 @@
             </div>
         </div>
 
-        <select id="topping">
-            <option value="geen">Geen</option>
-            <option value="slagroom">Slagroom</option>
-            <option value="sprinkels">Sprinkels</option>
-            <option value="caramel saus">Caramel saus</option>
-        </select>
+        <div class="box">
+            <select id="topping">
+                <option value="geen topping">Geen topping</option>
+                <option value="slagroom">Slagroom</option>
+                <option value="sprinkels">Sprinkels</option>
+                <option value="caramel saus">Caramel saus</option>
+            </select>
+        </div>
 
-        <button id="knop-afronding" onclick="afronding()">Toevoegen</button>
-
+        <button id="knop-ijs-toevoegen" onclick="ijsToevoegen()">Ijs toevoegen</button>
+        <button id="knop-afronden" onclick="afronding()">Bestelling afronden</button>
+    </div>
+    <div class="papi-gelato-blok" id="bon-blok">
+        <div class="eind-blok">
+            <h2>Bon</h2>
+            <p id="bon"></p>
+            <p id="totaal-prijs"></p>
+        </div>
     </div>
 
 </body>

@@ -7,6 +7,6 @@ function addPiramide() {
         arrayNum.push(i);
         txt += String(arrayNum) + "<br>";
     }
-    newTxt = String("Array: " + arrayNum + "<br>" + txt);
+    newTxt = String("Array: " + arrayNum + "<br><br>" + txt);
     document.getElementById("makePiramide").innerHTML = newTxt;
-} 
+}

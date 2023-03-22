@@ -47,3 +47,10 @@
     alt="screenshot van omgekeerde piramide opdracht"
     title="omgekeerde piramide opdracht"
     style="display: inline-block; margin: 0 auto; max-width: 50px">
+
+## Papi Gelato foto (deels):
+<img
+    src="/screenshots/papi-gelato-screenshot.png"
+    alt="screenshot van Papi Gelato (deels)"
+    title="Papi Gelato"
+    style="display: inline-block; margin: 0 auto; max-width: 50px">
